@@ -1,0 +1,18 @@
+<?php
+
+namespace BlockCmd;
+
+use 
+
+class BlockCmd extends PluginBase implements Listener{
+	public function onEnable() {
+		$this->getLogger()->emergency("이플러그인 저작권은 케리시스가 가지고있으며 kerasise2377라이센스에 동의함을 간주로 합니다.")
+		$this->server()-
+		>getPluginManager()-
+		>registerEvents($this, $this);
+	}
+public function onPlace(BlockPlaceEvent  $event $Event){
+	$player = $event- > getplayer();
+
+$Sender->sendMessage($player, "/mymoney")
+ 
